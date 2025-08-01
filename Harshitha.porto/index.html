@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Harshitha Portfolio</title>
+  <script src="https://kit.fontawesome.com/93566264ff.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: white;
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      animation: fadeIn 1.2s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    header {
+      background-color: #1a1a1a;
+      padding: 1rem;
+      text-align: right;
+    }
+
+    .box2 a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+
+    .box2 a:hover {
+      color: #00ffcc;
+    }
+
+    .main-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 4rem 2rem;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+
+    #box1 {
+      max-width: 400px;
+      text-align: left;
+    }
+
+    #h11, #h12 {
+      font-size: 3rem;
+      margin: 0;
+      font-weight: 800;
+      letter-spacing: 1px;
+    }
+
+    #heading {
+      font-size: 1.4rem;
+      color: #00ffcc;
+      margin-top: 0.5rem;
+      font-weight: 500;
+    }
+
+    .image-float {
+      text-align: center;
+    }
+
+    .image-float img {
+      width: 330px;
+      height: 450px;
+      object-fit: cover;
+      border: 3px solid #00ffcc;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0, 255, 204, 0.2);
+    }
+
+    .resume-section {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    .resume-button {
+      background-color: #00ffcc;
+      color: black;
+      padding: 12px 24px;
+      border-radius: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .resume-button:hover {
+      background-color: #00ccb3;
+    }
+
+    #icons {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    #icons a {
+      margin: 0 15px;
+      color: white;
+      transition: 0.3s;
+    }
+
+    #icons a:hover {
+      color: #00ffcc;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <div class="box2">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="project.html">Projects</a>
+      <a href="more.html">More</a> 
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="main-container">
+    <!-- Image Right -->
+    <div class="image-float">
+      <img src="Harshi.jpg" alt="Harshitha" />
+    </div>
+
+    <!-- Text Left -->
+    <div id="box1">
+      <h1 id="h11">HARSHITHA</h1>
+      <h1 id="h12">DASI</h1>
+      <p id="heading">Web Development</p>
+    </div>
+  </div>
+
+  <!-- Social Icons -->
+  <div id="icons">
+    
+    <a href="https://github.com/DASIHARSHITHA" target="_blank">
+      <i class="fa-brands fa-github fa-2x"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/harshitha-dasi-b9850b314/" target="_blank">
+      <i class="fa-brands fa-linkedin fa-2x"></i>
+    </a>
+  </div>
+
+  <!-- Chatbot Embed -->
+  <script
+    src="https://www.chatbase.co/embed.min.js"
+    chatbotId="Iguc7k6aXe6o_dmw6rfvT"
+    domain="www.chatbase.co"
+    defer>
+  </script>
+
+</body>
+</html>

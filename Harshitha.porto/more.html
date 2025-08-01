@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>More About Me</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- EmailJS SDK -->
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script>
+    (function(){
+      emailjs.init("K09R3Uuf60g4zyDWc"); // ✅ Your public key
+    })();
+  </script>
+
+  <style>
+    body {
+      background: radial-gradient(circle at center, #0d0d1f, #000);
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+      margin: 0;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.8rem;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #00FFD1;
+      margin-top: 10px;
+      font-size: 1.1rem;
+      letter-spacing: 1px;
+    }
+
+    .sections-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 50px;
+    }
+
+    .card {
+      background-color: #111;
+      padding: 30px 35px;
+      border-radius: 20px;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+      max-width: 400px;
+      width: 100%;
+    }
+
+    .card h2, .contact-info h3 {
+      color: #00FFD1;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .card ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    .card li {
+      margin-bottom: 12px;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      background-color: #222;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      font-size: 1rem;
+    }
+
+    .contact-form textarea {
+      height: 100px;
+      resize: none;
+    }
+
+    .contact-form button {
+      background-color: #00FFD1;
+      color: black;
+      border: none;
+      padding: 12px 20px;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      width: 100%;
+    }
+
+    .contact-form button:hover {
+      background-color: #00cba8;
+    }
+
+    .contact-info p {
+      margin: 10px 0;
+      font-size: 1rem;
+    }
+
+    .contact-info i {
+      margin-right: 10px;
+      color: #00FFD1;
+    }
+
+    .social-icons {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .social-icons a {
+      margin: 0 10px;
+      color: white;
+      font-size: 1.5rem;
+      transition: color 0.3s ease;
+    }
+
+    .social-icons a:hover {
+      color: #00FFD1;
+    }
+  </style>
+</head>
+<body>
+
+          <!-- Navigation Bar -->
+  <nav style="background-color: #111; padding: 10px; text-align: center;">
+    <a href="index.html" style="color: white; margin: 10px; text-decoration: none;">Home</a>
+    <a href="about.html" style="color: white; margin: 10px; text-decoration: none;">About</a>
+    <a href="project.html" style="color: white; margin: 10px; text-decoration: none;">Projects</a>
+    <a href="more.html" style="color: white; margin: 10px; text-decoration: none;">More</a>
+  </nav>
+
+  <h1>More</h1>
+  <p class="subtitle">Know About Me More</p>
+
+  <div class="sections-container">
+
+    <!-- Education -->
+    <div class="card">
+      <h2>EDUCATION</h2>
+      <ul>
+        <p><li>B.Tech :</li><br>
+        In Computer Science<br>
+        Seshadri Rao Gudlavalleru Engineering College | 2023–2027<br>
+        Studying core subjects like DSA, DBMS, OS...</p>
+      </ul>
+    </div>
+
+    <!-- Languages -->
+    <div class="card">
+      <h2>LANGUAGES</h2>
+      <ul>
+        <li>English</li>
+        <li>Telugu</li>
+      </ul>
+    </div>
+
+ 
+
+   <!-- Contact Form -->
+<div class="card contact-form">
+  <h2>Contact Me</h2>
+  <form id="contact-form">
+    <input type="text" id="name" placeholder="Your Name" required />
+    <input type="email" id="email" placeholder="Your Email" required />
+    <input type="text" id="subject" placeholder="Subject" required />
+    <textarea id="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</div>
+
+ <!-- Contact Info -->
+    <div class="card contact-info">
+      <h3>Contact Information</h3>
+      <p><i class="fas fa-envelope"></i> harshithadasi58@gmail.com</p>
+      <p><i class="fas fa-phone"></i> +91 8008947799</p>
+      <hr style="margin: 20px 0; border: 0.5px solid #333" />
+      <h3>Connect with me</h3>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- EmailJS SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script>
+    (function() {
+      emailjs.init("K09R3Uuf60g4zyDWc"); // Your public key
+    })();
+
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      emailjs.send("service_1ll3qrd", "template_swscfjn", {
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        title: document.getElementById("subject").value,
+        message: document.getElementById("message").value,
+        time: new Date().toLocaleString()
+      })
+      .then(function(response) {
+        alert("Message sent successfully!");
+        document.getElementById("contact-form").reset();
+      }, function(error) {
+        alert("Failed to send message. Try again!");
+        console.error("EmailJS Error:", error);
+      });
+    });
+  </script>
+
+</body>
+</html>

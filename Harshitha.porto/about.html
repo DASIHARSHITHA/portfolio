@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About - Harshitha</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #0f0f0f;
+      color: #f5f5f5;
+      line-height: 1.6;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    header {
+      background-color: #1a1a1a;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(255, 255, 255, 0.05);
+    }
+
+    .box2 a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    .box2 a:hover {
+      color: #00ffff;
+    }
+
+    .about-section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .about-section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 36px;
+      color: #00ffff;
+      letter-spacing: 2px;
+    }
+
+    .email {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .email a {
+      color: #ffffff;
+      text-decoration: underline;
+      font-size: 16px;
+    }
+
+    .content-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      margin-bottom: 30px;
+    }
+
+    .image-container img {
+      width: 280px;
+      height: auto;
+      border-radius: 15px;
+      border: 2px solid #00ffff;
+      box-shadow: 0 0 10px #00ffff33;
+      transition: transform 0.4s ease;
+    }
+
+    .image-container img:hover {
+      transform: scale(1.05);
+    }
+
+    .text-box {
+      max-width: 600px;
+      font-size: 18px;
+      color: #e0e0e0;
+      animation: slideIn 1.2s ease-out;
+    }
+
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateX(40px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+
+    #but1 {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .languages-link {
+      background-color: #00ffff;
+      color: #000000;
+      padding: 12px 25px;
+      border-radius: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-block;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 10px #00ffff55;
+    }
+
+    .languages-link:hover {
+      background-color: #00cccc;
+      box-shadow: 0 0 20px #00ffff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1a1a1a;
+      color: #888;
+      margin-top: 50px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="box2">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="project.html">Projects</a>
+      <a href="more.html">More</a> 
+    </div>
+  </header>
+
+  <section class="about-section">
+    <h2>ABOUT</h2>
+    <p class="email"><a href="mailto:harshitha@example.com">harshitha@example.com</a></p>
+
+    <div class="content-wrapper">
+      <div class="image-container">
+        <img src="harshitha.jpg" alt="Harshitha" />
+      </div>
+      <div class="text-box">
+        <p>
+          Hi, I'm <b>Harshitha</b>, a Computer Science student at Seshadri Rao Gudlavalleru Engineering College with a strong passion for 
+          Artificial Intelligence and Web Development Innovations. I’m always eager to explore new domains within the tech industry and continuously 
+          expand my knowledge. My approach to problem-solving is both rational and pragmatic—I strive to find simple, functional, and 
+          effective solutions to complex challenges.
+        </p>
+      </div>
+    </div>
+
+    <div id="but1">
+      <a class="languages-link" href="certificate.html">Certificates</a>
+    </div> 
+
+    <div id="but1">
+      <a class="languages-link" href="language.html">Languages Known</a>
+    </div> 
+
+    <footer>
+      <p>© Harshitha <br> "All Rights Reserved"</p>
+    </footer>
+  </section>
+</body>
+</html>

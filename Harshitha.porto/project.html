@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Harshitha's Projects</title>
+  <link rel="stylesheet" href="style_project.css" />
+<style>
+  body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0d0d1a;
+  color: #fff;
+}
+
+.title {
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 2.5rem;
+  color: #ffcc66;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.project-card {
+  background-color: #1e1e2f;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+  width: 300px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.project-card h2 {
+  color: #ffcc66;
+  margin-bottom: 0.5rem;
+}
+
+.project-card p {
+  color: #ccc;
+  font-size: 0.95rem;
+  margin-bottom: 1.2rem;
+}
+
+.tech-tags {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  background-color: #ffcc66;
+  color: #000;
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ffd966;
+}
+</style>
+</head>
+
+
+<body>
+
+           <!-- Navigation Bar -->
+  <nav style="background-color: #111; padding: 10px; text-align: center;">
+    <a href="index.html" style="color: white; margin: 10px; text-decoration: none;">Home</a>
+    <a href="about.html" style="color: white; margin: 10px; text-decoration: none;">About</a>
+    <a href="project.html" style="color: white; margin: 10px; text-decoration: none;">Projects</a>
+    <a href="more.html" style="color: white; margin: 10px; text-decoration: none;">More</a>
+  
+  </nav>
+
+  <h1 class="title"></h1>
+
+  <div class="project-container">
+
+    <div class="project-card">
+      <img src="hen.jpg" alt="Disease-Detection">
+      <h2>Poultry-Disease-Detection</h2>
+      <p>🐔Transfer Learning-Based Classification of Poultry Diseases for Enhanced Health Management</p>
+      <div class="tech-tags">
+        <a href="https://github.com/DASIHARSHITHA/Poultry-Disease-Detection.git" class="btn">Code</a>
+        <a href="https://drive.google.com/file/d/1Zgx9j-TFvII7GF7ps17TrmDadXsl0TYo/view?usp=drive_link" class="btn">Demo</a>
+      </div>
+    </div>
+
+     <div class="project-card">
+      <img src="donate.jpg" alt="Donar">
+      <h2>Donar Connect</h2>
+      <p>Donor Connect is a simple frontend web application .
+         It aims to bridge the gap between donors and people in need by providing a clean, user-friendly platform that connects them quickly and transparently..</p>
+      <div class="tech-tags">
+        <a href="https://github.com/DASIHARSHITHA/donar_connect.git" class="btn">Code</a>
+       
+      </div>
+    </div>
+
+
+  </div>
+
+</body>
+</html>
